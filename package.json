@@ -6,11 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "next": "^14.2.3",
+    "glob": "^8.1.0",
+    "minimatch": "^9.0.1",
     "@opennextjs/cloudflare": "^1.0.0-beta.3",
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",
     "gray-matter": "^4.0.3",
-    "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028",
     "remark": "^15.0.1",

@@ -1,17 +1,8 @@
-name = "your-app-name"
-type = "javascript"
+name = "your-project-name"
+compatibility_date = "2024-04-22"
 
 [build]
-command = "npm run build"
-cwd = "./"
-watch_dir = "."
-
-[site]
-bucket = ".next"
-entry-point = "."
+command = "npx @cloudflare/next-on-pages@latest"
 
 [env.production]
-name = "your-app-production"
-
-[vars]
-NODE_VERSION = "18"
+pages_build_output_dir = ".vercel/output"
