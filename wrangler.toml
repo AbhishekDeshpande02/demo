@@ -1,0 +1,17 @@
+name = "your-app-name"
+type = "javascript"
+
+[build]
+command = "npm run build"
+cwd = "./"
+watch_dir = "."
+
+[site]
+bucket = ".next"
+entry-point = "."
+
+[env.production]
+name = "your-app-production"
+
+[vars]
+NODE_VERSION = "18"
